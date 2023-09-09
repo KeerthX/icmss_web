@@ -1,27 +1,66 @@
-body{
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body,
+html {
+  margin: 0px;
+  height: 100%;
+  width: auto;
 }
 
 .header {
-    background-color: #ffffff;
-    padding: 30px;
-    text-align: center;
-  }
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
 
-  .organiser{
-    font-size: 30px;
-    padding: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+.intro-section{
+  height: 100%;
+  width: auto;
+}
 
-  .spons-logo{
-    height: fit-content;
-    width: auto;
-    margin-top: 5px;
-    overflow: auto;
-    padding: 5px;
-  }
-  
-  .sponsor-section > hr {
-        border: 1px solid rgb(53, 53, 53);
-  }
+.header-sub{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+
+.name{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.about{
+  background-color: transparent;
+}
+
+.about > div:first-child {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.about > div:nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.organiser {
+  font-size: 30px;
+  padding: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spons-logo {
+  height: fit-content;
+  width: auto;
+  margin-top: 5px;
+  overflow: auto;
+  padding: 5px;
+}
+
+.sponsor-section>hr {
+  border: 1px solid rgb(53, 53, 53);
+}
