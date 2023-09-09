@@ -8,4 +8,20 @@ body{
     text-align: center;
   }
 
+  .organiser{
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .spons-logo{
+    height: fit-content;
+    width: auto;
+    margin-top: 5px;
+    overflow: auto;
+    padding: 5px;
+  }
   
+  .sponsor-section > hr {
+        border: 1px solid rgb(53, 53, 53);
+  }
