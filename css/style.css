@@ -15,8 +15,11 @@ html {
 }
 
 .intro-section{
+  margin-top: 10px;
   height: 100%;
-  width: auto;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: red; */
 }
 
 .header-sub{
@@ -47,10 +50,24 @@ html {
   font-weight: 400;
 }
 
+@media (max-width: 990px) {
+  .intro-section img {
+    display: none;
+  }
+}
+
 .organiser {
   font-size: 30px;
   padding: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.sponsor-section{
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
 }
 
 .spons-logo {
@@ -63,4 +80,11 @@ html {
 
 .sponsor-section>hr {
   border: 1px solid rgb(53, 53, 53);
+}
+
+.spons-head{
+  font-size: 25px;
+  padding: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
 }
